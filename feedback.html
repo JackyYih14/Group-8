@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Website For Local Western Cuisine | Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-box">404</div>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="join.html">Join us</a></li>
+            <li class="dropdown">
+                <a href="menu.html">Menu ▼</a>
+                <ul class="dropdown-menu">
+                    <li><a href="beverage.html">Beverages</a></li>
+                    <li><a href="food.html">Food</a></li>
+                </ul>
+            </li>
+            <li><a href="feedback.html" class="active">Share feedback</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="voucher.html">Gift voucher</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <article class="feedback-container">
+        
+        <div class="form-wrapper">
+            <h2 class="form-title">SHARE YOUR FEEDBACK</h2>
+            
+            <form action="#" method="post" id="feedbackForm">
+                <fieldset>
+                    <legend>Customer Relations Survey</legend>
+                    
+                    <table class="form-table">
+                        
+                        <tr>
+                            <td><label for="cust-name">Full Name:</label></td>
+                            <td><input type="text" id="cust-name" name="custName" class="form-input" placeholder="Your Name" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="cust-email">Email Address:</label></td>
+                            <td><input type="email" id="cust-email" name="custEmail" class="form-input" placeholder="Your Email" required></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label>Dining Experience:</label></td>
+                            <td>
+                                <input type="radio" id="exp-excel" name="experience" value="excellent" checked>
+                                <label for="exp-excel" class="radio-check-label">Excellent</label>
+                                
+                                <input type="radio" id="exp-good" name="experience" value="good">
+                                <label for="exp-good" class="radio-check-label">Good</label>
+                                
+                                <input type="radio" id="exp-poor" name="experience" value="poor">
+                                <label for="exp-poor" class="radio-check-label">Average</label>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label>Favorite Dishes Today:</label></td>
+                            <td>
+                                <input type="checkbox" id="fav-steak" name="favFood" value="steak">
+                                <label for="fav-steak" class="radio-check-label">Steak</label>
+                                
+                                <input type="checkbox" id="fav-pasta" name="favFood" value="pasta">
+                                <label for="fav-pasta" class="radio-check-label">Pasta</label>
+                                
+                                <input type="checkbox" id="fav-dessert" name="favFood" value="dessert">
+                                <label for="fav-dessert" class="radio-check-label">Dessert</label>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="cust-comments">Comments:</label></td>
+                            <td><textarea id="cust-comments" name="custComments" class="form-input" rows="5" placeholder="Write your comments here..." required></textarea></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" class="submit-btn">SUBMIT FEEDBACK</button>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        
+    </article>
+
+<footer>
+    <div class="footer-banner">
+        <p><a href="about.html">Group 8</a> | Last updated: May 22, 2026</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
